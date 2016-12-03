@@ -5,3 +5,5 @@
 ###Steps to implementing into your custom Android 6.0 ROM
   - Add all the files in the CustomTiles folder into the following directory in your custom ROM:   /frameworks/base/packages/SystemUI/src/com/android/systemui/qs/tiles
   - Add the QSTileHost.java file into the following directory in your custom ROM: /frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/phone
+  - Add the config.xml fole into into the following directory in your custom ROM: /frameworks/base/packages/SystemUI/res/values
+  - 
