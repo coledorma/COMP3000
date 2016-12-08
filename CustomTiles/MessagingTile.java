@@ -30,9 +30,7 @@ import android.content.pm.PackageManager;
 /** Quick settings tile: Messaging Tile **/
 public class MessagingTile extends QSTile<QSTile.BooleanState> {
     private final AnimationIcon mEnable =
-            new AnimationIcon(R.drawable.ic_signal_airplane_enable_animation);
-    private final AnimationIcon mDisable =
-            new AnimationIcon(R.drawable.ic_signal_airplane_disable_animation);
+            new AnimationIcon(R.drawable.ic_messaging);
 
     public MessagingTile(Host host) {
         super(host);
