@@ -30,9 +30,7 @@ import android.content.pm.PackageManager;
 /** Quick settings tile: Phone Tile **/
 public class PhoneTile extends QSTile<QSTile.BooleanState> {
     private final AnimationIcon mEnable =
-            new AnimationIcon(R.drawable.ic_signal_airplane_enable_animation);
-    private final AnimationIcon mDisable =
-            new AnimationIcon(R.drawable.ic_signal_airplane_disable_animation);
+            new AnimationIcon(R.drawable.ic_phone);
 
     public PhoneTile(Host host) {
         super(host);
